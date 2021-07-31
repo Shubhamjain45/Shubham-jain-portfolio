@@ -1,0 +1,214 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Deedy - One Page Two Column Resume
+% LaTeX Template
+% Version 1.2 (16/9/2014)
+%
+% Original author:
+% Debarghya Das (http://debarghyadas.com)
+%
+% Original repository:
+% https://github.com/deedydas/Deedy-Resume
+%
+% IMPORTANT: THIS TEMPLATE NEEDS TO BE COMPILED WITH XeLaTeX
+%
+% This template uses several fonts not included with Windows/Linux by
+% default. If you get compilation errors saying a font is missing, find the line
+% on which the font is used and either change it to a font included with your
+% operating system or comment the line out to use the default font.
+% 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% 
+% TODO:
+% 1. Integrate biber/bibtex for article citation under publications.
+% 2. Figure out a smoother way for the document to flow onto the next page.
+% 3. Add styling information for a "Projects/Hacks" section.
+% 4. Add location/address information
+% 5. Merge OpenFont and MacFonts as a single sty with options.
+% 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+% CHANGELOG:
+% v1.1:
+% 1. Fixed several compilation bugs with \renewcommand
+% 2. Got Open-source fonts (Windows/Linux support)
+% 3. Added Last Updated
+% 4. Move Title styling into .sty
+% 5. Commented .sty file.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+% Known Issues:
+% 1. Overflows onto second page if any column's contents are more than the
+% vertical limit
+% 2. Hacky space on the first bullet point on the second column.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\documentclass[]{deedy-resume-openfont}
+\usepackage{fancyhdr}
+ 
+\pagestyle{fancy}
+\fancyhf{}
+ 
+\begin{document}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%     LAST UPDATED DATE
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%     TITLE NAME
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\namesection{Shubham}{Jain}{ 
+\href{mailto:shubhamjain4696@gmail.com}{shubhamjain4696@gmail.com} | +91-9158140326 | +91-8766523674 
+}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%     COLUMN ONE
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{minipage}[t]{0.33\textwidth} 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     EDUCATION
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Education} 
+\sectionsep
+\subsection{Pune University}
+\descript{BE in Mechanical  \\ Engineering}
+\location{2014-2018 | Nashik, India}
+\sectionsep
+
+\subsection{J.R. City Junior College}
+\descript{Class XII}
+\location{2014 | Dhule, India}
+\sectionsep
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     LINKS
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Links} 
+LeetCode:// \href{https://leetcode.com/shubhamjain45/}{\bf shubhamjain45 } \\
+Github:// \href{https://github.com/shubhamjain45}{\bf shubhamjain45} \\
+LinkedIn://  \href{https://www.linkedin.com/in/shubham-harish-jain}{\bf Shubham Harish Jain} \\
+Hackerrank://  \href{https://www.hackerrank.com/shubhamjain4696}{\bf shubhamjain4696} \\
+Portfolio://  \href{https://shubhamjain45.github.io/}{\bf shubhamjain45.github.io} \\
+\sectionsep
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     SKILLS
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Skills}
+\sectionsep
+\subsection{Programming}
+\textbullet{} C++  \\   \textbullet{} JavaScript  \\ \textbullet{} C\# \\ \textbullet{}HTML\\ \textbullet{} CSS \\
+\sectionsep
+\subsection{Technologies}
+\textbullet{} Microsoft Dynamics CRM  \\   \textbullet{} ReactJS  \\ \textbullet{} MS SQL Server  \\ \textbullet{}Github\\ \textbullet{} Git \\
+\sectionsep
+\subsection{Others}
+\textbullet{} Data Structures  \\   \textbullet{} Algorithms  \\ \textbullet{} Distributed Systems \\
+\sectionsep
+\section{Interests}
+\sectionsep
+\textbullet{}  Kite Flying \\   \textbullet{} Cricket  \\ 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%     COLUMN TWO
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\end{minipage} 
+\hfill
+\begin{minipage}[t]{0.66\textwidth} 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     EXPERIENCE
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Experience}
+\sectionsep
+\runsubsection{Capgemini India}
+\descript{| Senior Software Engineer }
+\location{April 2020 - Present | Pune, India}
+\vspace{\topsep} % Hacky fix for awkward extra vertical space
+\begin{tightemize}
+\item Contributed as a CRM developer in Enterprise Dynamics CRM project in which I have developed CRM forms, views, dashboards and other customizations.
+\item Implemented plugins, workflows, web resources, MS flows and ribbon customizations as per customer (Vanguard) requirements.
+\item Handled bug fixing , data fixing, production and UAT defects. 
+\end{tightemize}
+\sectionsep
+
+\runsubsection{Capgemini India}
+\descript{| Software Engineer }
+\location{March 2019 - March 2020 | Pune, India}
+\begin{tightemize}
+\item Performed Content Migration for entire website from Sitecore 8.0 to Sitecore 9.0 for client Zurich Insurance Company.
+\item Migrated approx. 7000 pages as a team in a very limited time.
+\item Trained under training program as a Software Engineer for 3 months in which successfully completed Full stack development training.
+\end{tightemize}
+\sectionsep
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     PROJECTS
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Projects}
+\sectionsep
+\runsubsection{Netflix Clone }
+\descript{| ReactJS, Redux, Google Firebase}
+\begin{tightemize}
+\item Netflix clone made with advanced React, Redux and Firebase which uses redux thunk to fetch movie data from Tmdb api. 
+\item Features include a multi-active searchbar, user signup and signin, add to list option for each user, trailer links, dynamically generated movie and tv show pages.
+\item It is hosted at \href{https://netflix-clone-shubhamjain.web.app//}{\bf netflix-clone-shubhamjain.web.app }
+\end{tightemize}
+\sectionsep
+
+\runsubsection{Interactive Resume}
+\descript{| JavaScript, Phaser }
+\begin{tightemize}
+\item  A Javascript/Phaser project using Super Mario Bros 1 as a model for a complete game engine.
+\item  Use arrow keys for run. Use shift to run faster and It is hosted at \href{https://shubhamjain45.github.io/ShubhamInteractiveResume/}{\bf shubhamjain45.github.io/ShubhamInteractiveResume } 
+\end{tightemize}
+\sectionsep
+
+\runsubsection{Amazon Clone}
+\descript{| ReactJS, Redux, Google Firebase, Stripe }
+\begin{tightemize}
+\item A full stack amazon clone built using ReactJS, React hooks, Reducers, Cloud functions.
+\item Social authentication using Firebase, Hosting and FirestoreDb on Firebase, Full payment functionality using Stripe.
+\end{tightemize}
+\sectionsep
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     AWARDS
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Achievements} 
+\sectionsep
+\sectionsep
+\begin{tightemize}
+\item Star performer in 3rd quarter in 2020 in Dynamics CRM project.
+\item Star performer in 4th quarter in 2019 in Zurich migration project.
+\item 4 star programmer on Hackerrank (C++, JavaScript)
+\end{tightemize}
+\sectionsep
+\sectionsep
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     PUBLICATIONS
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\end{minipage} 
+\end{document}  \documentclass[]{article}

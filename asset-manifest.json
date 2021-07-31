@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/Shubham-jain-portfolio/static/css/main.3b4a8120.chunk.css",
+    "main.js": "/Shubham-jain-portfolio/static/js/main.514e01ec.chunk.js",
+    "main.js.map": "/Shubham-jain-portfolio/static/js/main.514e01ec.chunk.js.map",
+    "runtime-main.js": "/Shubham-jain-portfolio/static/js/runtime-main.3d546b21.js",
+    "runtime-main.js.map": "/Shubham-jain-portfolio/static/js/runtime-main.3d546b21.js.map",
+    "static/js/2.75376d99.chunk.js": "/Shubham-jain-portfolio/static/js/2.75376d99.chunk.js",
+    "static/js/2.75376d99.chunk.js.map": "/Shubham-jain-portfolio/static/js/2.75376d99.chunk.js.map",
+    "index.html": "/Shubham-jain-portfolio/index.html",
+    "precache-manifest.0b5b1ce14c4dd33cb3849a0e01a674dd.js": "/Shubham-jain-portfolio/precache-manifest.0b5b1ce14c4dd33cb3849a0e01a674dd.js",
+    "service-worker.js": "/Shubham-jain-portfolio/service-worker.js",
+    "static/css/main.3b4a8120.chunk.css.map": "/Shubham-jain-portfolio/static/css/main.3b4a8120.chunk.css.map",
+    "static/js/2.75376d99.chunk.js.LICENSE.txt": "/Shubham-jain-portfolio/static/js/2.75376d99.chunk.js.LICENSE.txt",
+    "static/media/resume.pdf": "/Shubham-jain-portfolio/static/media/resume.346f5c8f.pdf",
+    "static/media/shubhamjain.png": "/Shubham-jain-portfolio/static/media/shubhamjain.0e63bb10.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.3d546b21.js",
+    "static/js/2.75376d99.chunk.js",
+    "static/css/main.3b4a8120.chunk.css",
+    "static/js/main.514e01ec.chunk.js"
+  ]
+}
