@@ -5,23 +5,23 @@
 
   <p align="center">
     It is a personal static website/portfolio template hosted with GitHub Pages, built to showcase my recent projects. Site URL / Demo: 
-    <a href="https://hashirshoaeb.github.io">hashirshoaeb.github.io</a>
+    <a href="https://shubhamjain45.github.io/Shubham-jain-portfolio/">shubhamjain45.github.io</a>
     <br />
     <br />
-    <a href="https://hashirshoaeb.com">About Me</a>
-    ·
-    <a href="https://github.com/hashirshoaeb/home/issues">Report Bug</a>
-    ·
-    <a href="https://github.com/hashirshoaeb/home/issues">Request Feature</a>
+    <a href="https://shubhamjain45.github.io/Shubham-jain-portfolio/">About Me</a>
+   // ·
+    //<a href="https://github.com/hashirshoaeb/home/issues">Report Bug</a>
+    //·
+    //<a href="https://github.com/hashirshoaeb/home/issues">Request Feature</a>
   </p>
 </p>
 
-![GitHub contributors](https://img.shields.io/github/contributors/hashirshoaeb/home?color=ffcc66&style=for-the-badge)
-![GitHub stars](https://img.shields.io/github/stars/hashirshoaeb/home?color=ffcc66&style=for-the-badge)
-[![GitHub forks](https://img.shields.io/github/forks/hashirshoaeb/home?style=for-the-badge)](https://github.com/hashirshoaeb/star_book/network)
-[![GitHub issues](https://img.shields.io/github/issues/hashirshoaeb/home?color=ffcc66&style=for-the-badge)](https://github.com/hashirshoaeb/star_book/issues)
-[![GitHub license](https://img.shields.io/github/license/hashirshoaeb/home?style=for-the-badge)](https://github.com/hashirshoaeb/home/blob/master/LICENSE)
-[![Twitter Follow](https://img.shields.io/twitter/follow/hashirshoaeb?color=ffcc66&logo=twitter&logoColor=ffffff&style=for-the-badge)](https://twitter.com/hashirshoaeb)
+![GitHub contributors](https://img.shields.io/github/contributors/shubhamjain45/home?color=ffcc66&style=for-the-badge)
+![GitHub stars](https://img.shields.io/github/stars/shubhamjain45/home?color=ffcc66&style=for-the-badge)
+[![GitHub forks](https://img.shields.io/github/forks/shubhamjain45/home?style=for-the-badge)](https://github.com/shubhamjain45/star_book/network)
+[![GitHub issues](https://img.shields.io/github/issues/shubhamjain45/home?color=ffcc66&style=for-the-badge)](https://github.com/shubhamjain45/star_book/issues)
+[![GitHub license](https://img.shields.io/github/license/shubhamjain45/home?style=for-the-badge)](https://github.com/shubhamjain45/home/blob/master/LICENSE)
+[![Twitter Follow](https://img.shields.io/twitter/follow/shubhamjain45?color=ffcc66&logo=twitter&logoColor=ffffff&style=for-the-badge)](https://twitter.com/shubhamjain4696)
 
 [![Site preview](/public/social-image.png)](https://hashirshoaeb.github.io/)
 
