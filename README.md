@@ -9,10 +9,6 @@
     <br />
     <br />
     <a href="https://shubhamjain45.github.io/Shubham-jain-portfolio/">About Me</a>
-   // ·
-    //<a href="https://github.com/hashirshoaeb/home/issues">Report Bug</a>
-    //·
-    //<a href="https://github.com/hashirshoaeb/home/issues">Request Feature</a>
   </p>
 </p>
 
@@ -23,7 +19,7 @@
 [![GitHub license](https://img.shields.io/github/license/shubhamjain45/home?style=for-the-badge)](https://github.com/shubhamjain45/home/blob/master/LICENSE)
 [![Twitter Follow](https://img.shields.io/twitter/follow/shubhamjain45?color=ffcc66&logo=twitter&logoColor=ffffff&style=for-the-badge)](https://twitter.com/shubhamjain4696)
 
-[![Site preview](/public/social-image.png)](https://hashirshoaeb.github.io/)
+[![Site preview](/public/social-image.png)](https://shubhamjain45.github.io/Shubham-jain-portfolio/)
 
 ## Table of Contents
 
